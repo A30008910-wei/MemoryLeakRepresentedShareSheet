@@ -18,9 +18,7 @@ struct ContentView: View {
         .foregroundColor(.accentColor)
       Text("Hello, world!")
       Button {
-        Task {
-          image = takeSnapshot()
-        }
+        image = takeSnapshot()
       } label: {
         HStack {
           Image(systemName: "square.and.arrow.up")
