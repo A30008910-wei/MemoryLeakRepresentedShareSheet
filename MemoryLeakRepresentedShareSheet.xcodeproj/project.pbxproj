@@ -11,6 +11,7 @@
 		DC8F04C22B33F0FE00FEDB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F04C12B33F0FE00FEDB2C /* ContentView.swift */; };
 		DC8F04C42B33F0FF00FEDB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8F04C32B33F0FF00FEDB2C /* Assets.xcassets */; };
 		DC8F04C72B33F0FF00FEDB2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8F04C62B33F0FF00FEDB2C /* Preview Assets.xcassets */; };
+		DC8F04CE2B33F11000FEDB2C /* RepresentedShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F04CD2B33F11000FEDB2C /* RepresentedShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DC8F04C12B33F0FE00FEDB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC8F04C32B33F0FF00FEDB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC8F04C62B33F0FF00FEDB2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC8F04CD2B33F11000FEDB2C /* RepresentedShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentedShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DC8F04BF2B33F0FE00FEDB2C /* MemoryLeakRepresentedShareSheetApp.swift */,
 				DC8F04C12B33F0FE00FEDB2C /* ContentView.swift */,
+				DC8F04CD2B33F11000FEDB2C /* RepresentedShareSheet.swift */,
 				DC8F04C32B33F0FF00FEDB2C /* Assets.xcassets */,
 				DC8F04C52B33F0FF00FEDB2C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8F04CE2B33F11000FEDB2C /* RepresentedShareSheet.swift in Sources */,
 				DC8F04C22B33F0FE00FEDB2C /* ContentView.swift in Sources */,
 				DC8F04C02B33F0FE00FEDB2C /* MemoryLeakRepresentedShareSheetApp.swift in Sources */,
 			);
@@ -270,6 +274,8 @@
 				DEVELOPMENT_TEAM = KZ98AVTC32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the image to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Load photo from the photo album";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,8 @@
 				DEVELOPMENT_TEAM = KZ98AVTC32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save the image to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Load photo from the photo album";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

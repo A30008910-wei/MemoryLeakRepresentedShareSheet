@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "2ecee6caf30f2a984cae60d86b340fadbba19ae88000fad58bdb721b8015fbb9"
+build_start_time: [1703134438, 806476000]
+build_end_time: [1703134439, 175591000]
+inputs:
+  ? "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/ContentView.swift"
+  : [1703134070, 495180558]
+  ? "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheetApp.swift"
+  : [1703132214, 151282263]
+  ? "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/RepresentedShareSheet.swift"
+  : [1703132363, 322458945]

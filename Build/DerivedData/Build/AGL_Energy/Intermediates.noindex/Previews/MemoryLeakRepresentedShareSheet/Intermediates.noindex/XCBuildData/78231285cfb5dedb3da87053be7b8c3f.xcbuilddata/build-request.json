@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "preview"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "05de47d1286a202a9f44f173981f3db4a89c0a97230e16e066dbcbefecfc9602"
+    }
+  ],
+  "containerPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Intermediates.noindex",
+      "buildProductsPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Products",
+      "derivedDataPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/MemoryLeakRepresentedShareSheet/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/MemoryLeakRepresentedShareSheet/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Intermediates.noindex/Previews/MemoryLeakRepresentedShareSheet/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "OBJROOT" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Intermediates.noindex/Previews/MemoryLeakRepresentedShareSheet/Intermediates.noindex",
+          "SYMROOT" : "/Users/A30008910agl.com.au/Source/MemoryLeakRepresentedShareSheet/MemoryLeakRepresentedShareSheet/Build/DerivedData/Build/AGL_Energy/Intermediates.noindex/Previews/MemoryLeakRepresentedShareSheet/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
